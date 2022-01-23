@@ -1,0 +1,27 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap');
+
+/* UTILITIES */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+P{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* SLIDER SECTION */
+
+
+
+
+
+
+
+@media screen and (min-width: 280px) and (max-width:568px) {
+    .slider-content h1 {
+      font-size: .9rem;
+    }
+    .slider-content p {
+      font-size: .5rem;
+    }
+  }
