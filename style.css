@@ -10,42 +10,50 @@ P{
 }
 
 /* SLIDER SECTION */
-
-.slider-btn{
-    background-color: #fff;
-    padding: 10px 28px;
+.slider-sub-title{
+    font-size: 1rem;
     font-weight: 500;
-    color: royalblue;
-    border: none;
-    border-radius: 8px;
 }
 
 /* OUR PACKAGE SECTION  */
+.hot-sell {
+    transform: translatey(-17px) scaleY(1.08);
+}
 .package{
     box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 5%);
     border-radius: 30px;
+    position: relative;
 }
 .card-button a{
     background: #FDF4FA;
     font-size: .9rem;
     padding: 10px 25px;
 }
+.card-badge {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #ff5200 !important;
+}
 
 
 
-
-/* @media screen and (min-width: 280px) and (max-width:568px) {
+/* RESPONSIVE */
+@media screen and (min-width: 280px) and (max-width:568px) {
     .container{
         width:100%
     }
     .slider-content{
         text-align: center;
     }
-    .slider-content h1 {
-      font-size: .9rem;
+    .slider-title h1 {
+      font-size: .8rem;
 
     }
     .slider-content p {
-      font-size: .5rem;
+      font-size: .6rem;
     }
-  } */
+    .slider-sub-title{
+        font-size: .8rem;
+    }
+  }
